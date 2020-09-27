@@ -1,14 +1,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <div class="row mb-3">
     <div class="col-12">
-        <article class="card text-white bg-dark">
+        <article class="card">
             <div class="card-header"><slot name="dates"></slot></div>
             <div class="card-body">
                 <h1 class="card-title"><slot name="name"></slot></h1>
                 <p class="card-subtitle"><slot name="address"></slot></p>
                 <dl>
-                    <dt>Address</dt>
-                    <dd></dd>
                     <dt>Responsibilities</dt>
                     <dd><slot name="responsibilities"></slot></dd>
                     <dt>Projects</dt>
