@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="data:,">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="custom-element.js"></script>
+        <script src="h-containing-element.js"></script>
+        <script src="employer.js"></script>
+        <script src="education.js"></script>
+    </head>
+    <body class="container">
+        <h1>Nahuel Agustín Prieto Galardo</h1>
+        <section>
+            <h2>Employers</h2>
+            <div id="employers" class="d-flex flex-column-reverse">
+                <sr-employer h-level="3">
+                    <span slot="name">Tindat Technologies S.R.L.</span>
+                    <span slot="address">La Pampa 2477 9ºF, Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    <span slot="dates">06/01/2013-03/31/2015</span>
+                    <ul slot="responsibilities">
+                        <li>
+                            Development of T-SQL queries and procedural code to obtain report-ready data from clients'
+                            databases.
+                        </li>
+                    </ul>
+                    <ul slot="projects">
+                        <li>Maco financial reports</li>
+                        <li>SoccerTime </li>
+                        <li>Trend Chemical</li>
+                        <li>SGP</li>
+                    </ul>
+                    <ul slot="accomplishments">
+                        <li>During</li>
+                    </ul>
+                </sr-employer>
+                <sr-employer h-level="3">
+                    <span slot="name">Proyectiva S.A.</span>
+                    <span slot="address">Zuviría 658, Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    <span slot="dates">07/01/2016-02/17/2017</span>
+                </sr-employer>
+                <sr-employer h-level="3">
+                    <span slot="name">Mercado Libre S.R.L.</span>
+                    <span slot="address">Arias 3751, Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    <span slot="dates">02/20/2017-06/30/2017</span>
+                </sr-employer>
+                <sr-employer h-level="3">
+                    <span slot="name">Acuaras Technologies S.A.S</span>
+                    <span slot="address">Av. Córdoba 1215 3°, Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    <span slot="dates">07/01/2018-03/01/2019</span>
+                </sr-employer>
+                <sr-employer h-level="3">
+                    <span slot="name">Devspark S.A.</span>
+                    <span slot="address">9 de Julio 340, Tandil, Provincia de Buenos Aires, Argentina</span>
+                    <span slot="dates">03/06/2019-present</span>
+                </sr-employer>
+            </div>
+        </section>
+        <section>
+            <h2>Post secondary education</h2>
+            <sr-education h-level="3">
+                <span slot="name">Information Technology Analysis at UADE</span>
+                <span slot="completion-date">12/22/2016</span>
+                <span slot="received-degree">Information Technology Analyst</span>
+            </sr-education>
+        </section>
+    <body>
+</html>
